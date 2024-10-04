@@ -13,7 +13,7 @@
     }
     html {
         font-family: "Open Sans", sans-serif;
-        color: var(--black);
+        color: var(--black, );
         font-weight: 400;
     }
     .page__logo::before {
@@ -37,6 +37,6 @@
 
 /* VRSTVA PRO VAŠE STYLY */
 @layer design {
-   
 
+    
 }
