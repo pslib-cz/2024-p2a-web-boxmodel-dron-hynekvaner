@@ -39,7 +39,7 @@
 @layer design {
 
     .page__intro{
-    color: var(--light), white;
+    color: var(--light);
     }
 
 
