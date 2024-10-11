@@ -38,5 +38,10 @@
 /* VRSTVA PRO VAŠE STYLY */
 @layer design {
 
+    .page__intro{
+    color: var(--light), white;
+    }
+
+
     
 }
