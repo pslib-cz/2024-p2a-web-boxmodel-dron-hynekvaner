@@ -54,12 +54,12 @@
         background-image: url(../images/header-2560w.webp);
         background-size: cover;
         background-position: top center;
+        padding: 1em;
     }
 
     .page__intro{
     color: var(--light);
-    margin-left: 1em;
-    margin-bottom: 1em;
+   
     }
 
  
@@ -81,8 +81,13 @@
         font-weight: 700;
     }
 
+
     .button--light{
         background-color: var(--light);
         color: var(--black);
     }
+    .button:hover{
+        text-decoration: underline;
+    }
+
 }
