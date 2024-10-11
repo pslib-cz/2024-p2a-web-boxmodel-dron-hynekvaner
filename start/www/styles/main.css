@@ -18,7 +18,7 @@
     }
     .page__logo::before {
         content: "";
-        display: block;
+        display: inline-block;
         background: center / contain no-repeat transparent;
         /*
         background-position: center;
@@ -38,6 +38,13 @@
 /* VRSTVA PRO VAŠE STYLY */
 @layer design {
 
+    
+
+    div{
+        display: block;
+       
+    }
+
     .image-responsive{
         display: block;
         width: 100%;
@@ -51,8 +58,31 @@
 
     .page__intro{
     color: var(--light);
+    margin-left: 1em;
+    margin-bottom: 1em;
     }
 
-
+ 
+    .page__logo{
+        display: inline-block;
+        padding: 1em;
+    }
     
+    .page__logo-container{
+        text-align: center;
+    }
+
+    .button{
+        display: inline-block;
+        background-color: var(--primary);
+        color: var(--light);
+        padding: 0.5em;
+        border-radius: 0.5em;
+        font-weight: 700;
+    }
+
+    .button--light{
+        background-color: var(--light);
+        color: var(--black);
+    }
 }
