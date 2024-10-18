@@ -93,15 +93,18 @@
 
     .outline-box{
         border: 2px solid var(--primary);
-        padding: .5em;
+        padding: 1em;
+
 
     }
 
-    .list>li::marker{
+    .list > li::marker{
         color: var(--primary);
     }
 
-
+    .div-image{
+        
+    }
 
 
 
