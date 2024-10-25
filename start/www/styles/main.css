@@ -38,7 +38,7 @@
 /* VRSTVA PRO VAŠE STYLY */
 @layer design {
 
-    
+    .page__section{padding: 1em;}
 
     div{
         display: block;
@@ -102,13 +102,37 @@
         color: var(--primary);
     }
 
-    .div-image{
-        
+    .products-inst{
+
+        width: 40%;
+        display: inline-block;
+        margin-left: 1em;
+        margin-right: 1em;
+      
+    }
+
+    /*.div-products{
+
+        align-items: center;
+    }*/
+
+
+    .ad{
+        background-color: var(--gray);
     }
 
 
+    .gallery{
+        display: grid;
+    }
+
+    .gallery-item{
+        padding: 0.8em;
+    }
+
 
     .button{
+        text-decoration: none;
         display: inline-block;
         background-color: var(--primary);
         color: var(--light);
